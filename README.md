@@ -1,65 +1,30 @@
-<!--- [![Open in Leap IDE](https://cdn-assets.cloud.dwavesys.com/shared/latest/badges/leapide.svg)](  https://ide.dwavesys.io/#https://github.com/dwave-examples/factoring-notebook)[![Linux/Mac/Windows build status](  https://circleci.com/gh/dwave-examples/factoring-notebook.svg?style=shield)](  https://circleci.com/gh/dwave-examples/factoring-notebook) --->
+# Hamiltonian Minimization in the NISQ Era
 
-# Quantum Annealing with Ocean
+This repository has the jupyter notebook with the results discussed on the author’s paper _Hamiltonian Minimization in the NISQ Era_. The paper outlines the use of noisy intermediate-scale quantum (NISQ) computers for Hamiltonian minimization problems. We delve into the mathematical formulation of Variational Quantum Eigensolver (VQE), Quantum Annealing (QA), and Quantum Approximation Optimization Algorithm (QAOA), with computational results for a 3-qubit minimization problem and its extension to 6-qubit, 13-qubit and 140-qubit problem run on central processor unit (CPU), quantum simulator (QS) and quantum processor unit (QPU). We show how different initial parameters leads to optimal, less accurate, or no satisfactory solutions using the considered versions of VQE and QAOA, a well known challenge. For all problems, the optimal solution was found using QA and hybrid solvers. This work serves as a hands-on approach to understand quantum annealing, variational quantum
+algorithms, quantum hardware limitations and current landscape.
 
-This jupyter notebook is a supplementary resource to the author’s paper _Annealing Quantum Computing: An Overview_. The paper aims to provide an accessible overview of annealing quantum computing. We give high-level explanations of the key quantum properties that are leveraged by a quantum annealer, along with the quantum mathematical formalism involved and references for further reading.
 
-The notebook has the following sections:
+## Accounts
 
-   1. Ising and QUBO model
-   
-       1.1 Exact solution
-       
-       1.2 Simulated annealing
-       
-   2. Problem to QUBO
-       
-       2.1 Exact solver
-       
-       2.2 Run on a quantum annealer processor
-       
-       2.3 Run on a Hybrid solver
+The reader need to create an account on:
 
-   3. Problem constrains
-   
-       3.1 Run on a Hybrid CQM solver
-   
-   4. Embedding
+    [Dwave leadp](https://cloud.dwavesys.com/leap/login/?next=/leap/)
+    [IBM Quantum](https://quantum.ibm.com/)
+    [Quafu](https://quafu.baqis.ac.cn/#/home)
+
+and save the api token on the corresponding notebook in order to run them. For Dwave's API token set up see [_Set Up Your Environment_](https://docs.ocean.dwavesys.com/en/latest/overview/install.html).
 
 
 ## Installation
-
-<!--- You can run this example [in the Leap IDE](https://ide.dwavesys.io/#https://github.com/dwave-examples). --->
 
 Install requirements locally (ideally, in a virtual environment):
 
     pip install -r requirements.txt
 
-<!--- ## Usage
-
-To enable notebook extensions[^1]:
-
-```bash
-jupyter contrib nbextension install --sys-prefix
-jupyter nbextension enable toc2/main
-jupyter nbextension enable exercise/main
-jupyter nbextension enable exercise2/main
-jupyter nbextension enable python-markdown/main
-
-``` --->
-
-
-To run the notebook:
-
-```bash
-jupyter notebook
-```
-
-<!--- [^1]: Leap's IDE, which runs VS Code, does not support all notebook extensions. --->
 
 ## References
 
-R. Pereira da Silva (2023), [_Annealing Quantum Computing: An Overview_](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4501788) SSRN Electronic Journal
+R. Pereira da Silva (2023), [_Hamiltonian Minimization in the NISQ Era_](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4501788) SSRN Electronic Journal
 
 ## License
 
