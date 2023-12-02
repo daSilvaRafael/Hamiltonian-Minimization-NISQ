@@ -1,4 +1,0 @@
-tasks:
-  - name: Run jupyter notebook
-    command: |
-      jupyter notebook *.ipynb
