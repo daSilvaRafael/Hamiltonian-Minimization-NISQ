@@ -6,11 +6,13 @@ algorithms, quantum hardware limitations and current landscape.
 
 ## Accounts
 
-The reader need to create an account on:
+The reader needs to create an account on the following clouds:
 
-    [Dwave leadp](https://cloud.dwavesys.com/leap/login/?next=/leap/)
-    [IBM Quantum](https://quantum.ibm.com/)
-    [Quafu](https://quafu.baqis.ac.cn/#/home)
+ [Dwave Leap](https://cloud.dwavesys.com/leap/login/?next=/leap/)
+
+ [IBM Quantum](https://quantum.ibm.com/)
+
+ [Quafu](https://quafu.baqis.ac.cn/#/home)
 
 and save the api token on the corresponding notebook in order to run them. For Dwave's API token set up see [_Set Up Your Environment_](https://docs.ocean.dwavesys.com/en/latest/overview/install.html).
 
