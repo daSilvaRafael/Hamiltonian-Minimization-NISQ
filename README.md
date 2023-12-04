@@ -26,7 +26,7 @@ Install requirements locally (ideally, in a virtual environment):
 
 ## References
 
-R. Pereira da Silva (2023), [_Hamiltonian Minimization in the NISQ Era_](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4501788) SSRN Electronic Journal
+R. Pereira da Silva (2023), _Hamiltonian Minimization in the NISQ Era_, SSRN Electronic Journal
 
 ## License
 
